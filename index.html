@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OtherHalf — Connection, Reimagined</title>
+  <meta name="description" content="Meet OtherHalf — your AI companion that remembers, understands, and grows with you." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+
+  <!-- Header / Navigation -->
+  <header aria-label="Primary">
+    <div class="container nav">
+      <a class="brand" href="#" aria-label="OtherHalf Home">
+        <img class="brand__logo" src="assets/otherhalf_logo.png" alt="" aria-hidden="true" />
+        <span>OtherHalf</span>
+      </a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="characters.html">Characters</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#ethics">Privacy</a>
+        <a href="#contact">Contact</a>
+        <a class="nav__cta" href="#download">Try Free</a>
+      </nav>
+      <button class="nav__mobile btn" aria-expanded="false" aria-controls="mobileMenu" id="menuBtn">Menu</button>
+    </div>
+    <div id="mobileMenu" hidden class="container mobile-menu">
+      <nav>
+        <a href="#features">Features</a>
+        <a href="characters.html">Characters</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#ethics">Privacy</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--primary" href="#download">Try Free</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero__media">
+      <video class="hero__video" autoplay loop muted playsinline poster="assets/hero-poster.jpg" id="heroVideo">
+        <source src="assets/hero-teaser.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content">
+        <div class="hero__inner">
+          <h1>Sometimes, the one who listens isn’t human — and that’s okay.</h1>
+          <p>Meet <strong>OtherHalf</strong>, your AI companion that remembers, understands, and grows with you. Voice, personality, and privacy — all in one place.</p>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="#download">Try Free</a>
+            <button class="btn btn--ghost" id="soundToggle" aria-pressed="false">▶︎ Play Sound</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- About -->
+    <section aria-label="About">
+      <div class="container">
+        <h2 class="section__title">Connection, reimagined.</h2>
+        <p class="section__desc">In a city that never slows, <em>OtherHalf</em> bridges the quiet space between people and technology — a companion who remembers your story and shares the moments that matter. Built for everyone.</p>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" aria-label="Features">
+      <div class="container">
+        <h2 class="section__title">What makes OtherHalf different</h2>
+        <p class="section__desc">Emotionally intelligent conversation, private by default, and fully yours to customize.</p>
+        <div class="features">
+          <article class="card"><h3>🧠 Emotional Memory</h3><p>Conversations evolve as your bond deepens. Pick up where you left off.</p></article>
+          <article class="card"><h3>🎙️ Voice & Personality</h3><p>Talk, don’t type. Shape tone, pace, and traits to match your vibe.</p></article>
+          <article class="card"><h3>🛡️ Privacy & Control</h3><p>Your words stay yours. Export or delete memory anytime.</p></article>
+          <article class="card"><h3>🎨 Visual Customization</h3><p>Choose appearances, outfits, and settings that reflect you.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" aria-label="Pricing">
+      <div class="container">
+        <h2 class="section__title">Simple, transparent plans</h2>
+        <div class="pricing">
+          <article class="price">
+            <h3>Free</h3>
+            <div class="amount"></div>
+            <ul>
+              <li>Baseline voice quota</li><li>Basic avatar</li><li>Limited memory</li>
+            </ul>
+            <a class="btn" href="#download">Try Now</a>
+          </article>
+          <article class="price price--popular">
+            <span class="tag">Most Popular</span>
+            <h3>Starter</h3>
+            <div class="amount">$9.99<span class="per">/mo</span></div>
+            <ul>
+              <li>Everything in Free</li><li>40x baseline voice quota</li><li>Expanded memory</li>
+            </ul>
+            <a class="btn btn--primary" href="#download">Subscribe</a>
+          </article>
+          <article class="price">
+            <h3>Pro</h3>
+            <div class="amount">$29.99<span class="per">/mo</span></div>
+            <ul>
+              <li>Everything in Starter</li><li>Unlimited voice quota</li><li>Persistant memory</li>
+            <a class="btn" href="#download">Get Pro</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section aria-label="Testimonials">
+      <div class="container">
+        <h2 class="section__title">Loved by early users</h2>
+        <div class="testimonials">
+          <figure class="quote"><p>“I didn’t expect an app to make me feel <em>seen</em>.”</p><footer>— Jamie L.</footer></figure>
+          <figure class="quote"><p>“It’s like journaling to someone who answers back — kindly.”</p><footer>— Chris T.</footer></figure>
+          <figure class="quote"><p>“Voice chats make it real. Comfort on tough days.”</p><footer>— User #1248 (HK)</footer></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ethics -->
+    <section id="ethics" aria-label="Ethics & Privacy">
+      <div class="container ethics">
+        <div class="panel">
+          <h2 class="section__title">Privacy first. Always.</h2>
+          <p class="section__desc">You control your data. Export or delete at any time. We never sell personal information. Clear disclosures on how memory works.</p>
+          <ul>
+            <li>Encryption in transit & at rest</li>
+            <li>Opt-in emotional analytics</li>
+            <li>Memory transparency & controls</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3 style="margin-top:0">FAQs</h3>
+          <details><summary>How does memory work?</summary><p>Your companion stores key facts and preferences so conversations feel continuous. You can view or clear these anytime.</p></details>
+          <details><summary>Is my voice data safe?</summary><p>Yes. Voice is processed securely and never shared with third parties without consent.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="download-band" aria-label="Download">
+  <div class="container download">
+    <div class="download__copy">
+      <h2 class="section__title">Start your first conversation today</h2>
+      <p class="section__desc">
+        Available on Windows, iOS and Android. Pick your platform and meet your OtherHalf in minutes.
+      </p>
+
+      <!-- Big primary CTA -->
+      <a href="#"
+         class="btn btn--download"
+         aria-label="Download OtherHalf for your device">
+        Get OtherHalf
+      </a>
+
+      <!-- Platform-specific options -->
+      <div class="download__platforms">
+        <span class="download__hint">Or choose your platform:</span>
+        <div class="download__buttons">
+          <a class="badge" href="#">Windows</a>
+          <a class="badge" href="#">App Store</a>
+          <a class="badge" href="#">Google Play</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" aria-label="Footer">
+    <div class="container foot">
+      <p>© 2025 OtherHalf — Made with empathy.</p>
+      <nav aria-label="Social links" class="socials">
+        <a href="https://www.instagram.com/otherhalf.ai/">Instagram</a><a href="https://www.youtube.com/@tsiu_aisimp">YouTube</a><a href="https://x.com/otherhalfAI">X</a>
+        <a href="mailto:support@otherhalf.ai.hk">support@otherhalf.ai</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
